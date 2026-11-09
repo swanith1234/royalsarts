@@ -1,0 +1,183 @@
+import { Artist } from '@/types';
+
+export const artists: Artist[] = [
+  {
+    id: '1',
+    slug: 'srikanth-babu-adepu',
+    name: 'Srikanth Babu Adepu',
+    specialty: 'Master of Traditional Art',
+    style: ['Traditional', 'Classical'],
+    location: 'Hyderabad, India',
+    bio: 'Srikanth Babu Adepu is a celebrated traditional artist with over 25 years of mastery in classical Indian painting techniques. His works are deeply rooted in the rich heritage of Andhra Pradesh, capturing the timeless beauty of Indian mythology, devotional subjects, and cultural narratives with extraordinary precision and spiritual depth.',
+    philosophy: '"My work is a dialogue between tradition and the present, keeping your cultural roots alive on canvas." Each brushstroke is a meditation, each colour a story of an ancient civilization speaking through the hands of the present.',
+    experience: '25+ Years of Experience',
+    rating: 4.9,
+    reviewCount: 127,
+    artworkCount: 18,
+    portrait: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80',
+    studioImage: 'https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&q=80',
+    featured: true,
+    socialLinks: {
+      instagram: 'https://instagram.com',
+      website: '#',
+    },
+  },
+  {
+    id: '2',
+    slug: 'meera-karthik',
+    name: 'Meera Karthik',
+    specialty: 'Contemporary Mixed Media Artist',
+    style: ['Contemporary', 'Mixed Media'],
+    location: 'Chennai, India',
+    bio: 'Meera Karthik is a visionary contemporary artist who blends traditional Indian aesthetics with modern mixed-media techniques. Her work explores the intersection of cultural identity, feminine power, and the contemporary Indian experience through bold compositions and innovative material usage.',
+    philosophy: 'Art is the language of the soul. I seek to create works that transcend boundaries between the ancient and the modern, the personal and the universal, inviting viewers into a space of contemplation and wonder.',
+    experience: '15+ Years of Experience',
+    rating: 4.8,
+    reviewCount: 94,
+    artworkCount: 22,
+    portrait: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=600&q=80',
+    studioImage: 'https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?w=800&q=80',
+    featured: true,
+    socialLinks: {
+      instagram: 'https://instagram.com',
+    },
+  },
+  {
+    id: '3',
+    slug: 'raghav-varma',
+    name: 'Raghav Varma',
+    specialty: 'Modern Acrylic & Oil Painter',
+    style: ['Modern', 'Acrylic'],
+    location: 'Mumbai, India',
+    bio: 'Raghav Varma is one of India\'s foremost modern painters, known for his luminous landscapes and architectural studies that capture the poetry of light and space. His large-format acrylics and oils have been exhibited in galleries across India, Singapore, and London.',
+    philosophy: 'I paint the in-between moments — the golden hour that lasts for a minute, the reflection in still water, the light that transforms the ordinary into the sacred. My canvases are my attempts to hold these moments still.',
+    experience: '20+ Years of Experience',
+    rating: 4.9,
+    reviewCount: 112,
+    artworkCount: 15,
+    portrait: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=600&q=80',
+    studioImage: 'https://images.unsplash.com/photo-1515405295579-ba7b45403062?w=800&q=80',
+    featured: true,
+    socialLinks: {
+      instagram: 'https://instagram.com',
+      website: '#',
+    },
+  },
+  {
+    id: '4',
+    slug: 'ananya-iyer',
+    name: 'Ananya Iyer',
+    specialty: 'Realist Oil Painter',
+    style: ['Realism', 'Oil Painting'],
+    location: 'Bangalore, India',
+    bio: 'Ananya Iyer\'s hyper-realistic oil paintings capture the intimate details of everyday Indian life — market scenes, festival preparations, and quiet domestic moments — with extraordinary technical mastery. Her work celebrates the unsung beauty found in the ordinary.',
+    philosophy: 'Reality is never ordinary when you look closely enough. I paint to slow the world down, to invite people to see what is always there but seldom noticed — the grace in the mundane, the extraordinary in the everyday.',
+    experience: '12+ Years of Experience',
+    rating: 4.7,
+    reviewCount: 68,
+    artworkCount: 12,
+    portrait: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&q=80',
+    studioImage: 'https://images.unsplash.com/photo-1529154036614-a60975f5c760?w=800&q=80',
+    featured: false,
+    socialLinks: {
+      instagram: 'https://instagram.com',
+    },
+  },
+  {
+    id: '5',
+    slug: 'arjun-dev',
+    name: 'Arjun Dev',
+    specialty: 'Abstract & Mixed Media',
+    style: ['Abstract', 'Mixed Media'],
+    location: 'Delhi, India',
+    bio: 'Arjun Dev is a boundary-pushing abstract artist whose work navigates the complex terrain of post-colonial identity, urban experience, and spiritual seeking. His mixed-media pieces combine traditional Indian pigments with contemporary materials to create visually intense, conceptually rich compositions.',
+    philosophy: 'Abstraction is not the absence of meaning but its purest distillation. I work to strip away the literal, the expected, the comfortable — to reach the emotional and spiritual core of human experience.',
+    experience: '18+ Years of Experience',
+    rating: 4.8,
+    reviewCount: 89,
+    artworkCount: 20,
+    portrait: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=600&q=80',
+    studioImage: 'https://images.unsplash.com/photo-1543857778-c4a1a3e0b2eb?w=800&q=80',
+    featured: false,
+    socialLinks: {
+      instagram: 'https://instagram.com',
+      website: '#',
+    },
+  },
+  {
+    id: '6',
+    slug: 'kavya-nair',
+    name: 'Kavya Nair',
+    specialty: 'Traditional Watercolour',
+    style: ['Traditional', 'Watercolour'],
+    location: 'Kochi, India',
+    bio: 'Kavya Nair\'s luminous watercolours bring the lush landscapes, backwaters, and cultural richness of Kerala to life with delicate precision and vibrant colour. Her work is celebrated for its atmospheric quality, capturing the light and mood of her home state with rare sensitivity.',
+    philosophy: 'Watercolour teaches humility — you must work with the medium, not against it. The best paintings happen in that beautiful dialogue between intention and accident, between control and surrender.',
+    experience: '10+ Years of Experience',
+    rating: 4.6,
+    reviewCount: 54,
+    artworkCount: 16,
+    portrait: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=600&q=80',
+    studioImage: 'https://images.unsplash.com/photo-1584448097764-374f81551427?w=800&q=80',
+    featured: false,
+    socialLinks: {
+      instagram: 'https://instagram.com',
+    },
+  },
+  {
+    id: '7',
+    slug: 'priya-menon',
+    name: 'Priya Menon',
+    specialty: 'Figurative & Portrait Painter',
+    style: ['Realism', 'Figurative'],
+    location: 'Pune, India',
+    bio: 'Priya Menon is a gifted figurative painter whose portraits capture the inner life of her subjects with empathetic insight and technical brilliance. Her works, often featuring women from various walks of Indian life, celebrate resilience, dignity, and the quiet strength of the human spirit.',
+    philosophy: 'Every face holds a universe of stories. When I paint a portrait, I am not just recording appearances — I am trying to touch the essence of a person, to capture what makes them irreducibly themselves.',
+    experience: '14+ Years of Experience',
+    rating: 4.8,
+    reviewCount: 76,
+    artworkCount: 14,
+    portrait: 'https://images.unsplash.com/photo-1546961342-ea5f60b193b7?w=600&q=80',
+    studioImage: 'https://images.unsplash.com/photo-1547637589-f54c34f5d7a4?w=800&q=80',
+    featured: false,
+    socialLinks: {
+      instagram: 'https://instagram.com',
+      website: '#',
+    },
+  },
+  {
+    id: '8',
+    slug: 'vikram-singh',
+    name: 'Vikram Singh',
+    specialty: 'Miniature & Mughal Art',
+    style: ['Traditional', 'Miniature'],
+    location: 'Jaipur, India',
+    bio: 'Vikram Singh is a master practitioner of the ancient Mughal and Rajput miniature painting traditions, trained under the last generation of court painters. His exquisitely detailed works, often executed on hand-prepared paper and silk, preserve a living heritage of unparalleled artistic refinement.',
+    philosophy: 'The miniature tradition is not about size but about infinity contained in the small. To paint one tiny flower with absolute precision, with every petal a universe — that is the aspiration of this art form.',
+    experience: '22+ Years of Experience',
+    rating: 5.0,
+    reviewCount: 43,
+    artworkCount: 11,
+    portrait: 'https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?w=600&q=80',
+    studioImage: 'https://images.unsplash.com/photo-1579762715118-a6f1d4b934f1?w=800&q=80',
+    featured: false,
+    socialLinks: {
+      website: '#',
+    },
+  },
+];
+
+export const getArtistBySlug = (slug: string): Artist | undefined =>
+  artists.find((a) => a.slug === slug);
+
+export const getArtistById = (id: string): Artist | undefined =>
+  artists.find((a) => a.id === id);
+
+export const getFeaturedArtists = (): Artist[] =>
+  artists.filter((a) => a.featured);
+
+export const getArtistStyles = (): string[] =>
+  [...new Set(artists.flatMap((a) => a.style))].sort();
+
+export const getArtistLocations = (): string[] =>
+  [...new Set(artists.map((a) => a.location))].sort();
